@@ -79,7 +79,10 @@ console.log(objnew.x);
 //bind and apply later
 
 // 5-Arrow Function
-
+let val=()=>{
+    console.log(this);
+}
+val();  //to be discussed
 
 
 
