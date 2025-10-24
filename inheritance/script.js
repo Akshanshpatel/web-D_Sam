@@ -30,6 +30,15 @@ let student1=new Student('Rohit','Male',22,2315510018)
 // console.log(student1.getInfo());
 
 
+// function func(){
+// }
+// console.log(func());  this will return undefined
+
+// let func2=new function(){
+// }
+// console.log(func2);  but this will return new object as it is a constructor
+
+
 
 //this keyword
 //this points to what? --> depends only on function calling (How it is being called)
