@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <fieldset>
+        <form action="/blogs/<%=foundComment.id%>?_method=PATCH" method="post">
+    <h1>Editing form for a blog</h1>
+
+    <label for="comment">Comment:</label>
+    <input type="text" id="comment" name="comment" value="<%=foundComment.comment%>">
+
+    <br><br>
+
+    <button>Edit Changes</button>
+</form>
+
+    </fieldset>
+
+
+
+
+
+
+</body>
+</html>

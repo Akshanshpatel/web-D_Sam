@@ -1,7 +1,7 @@
 div{
     border: 2px solid red;
     width: 350px;
-    height: 250px;
+    height: 300px;
     background-color: white;
     color: black;
     margin-left: 50px;
@@ -19,4 +19,11 @@ h1{
 section{
     display: flex;
     margin: 50px;
+}
+
+button{
+            margin-left: 50px;
+           
+            background-color: red;
+            color: white;
 }
